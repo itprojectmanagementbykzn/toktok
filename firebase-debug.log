@@ -1,0 +1,82 @@
+[debug] [2024-09-30T23:57:56.801Z] ----------------------------------------------------------------------
+[debug] [2024-09-30T23:57:56.803Z] Command:       /opt/homebrew/Cellar/node/22.9.0/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-09-30T23:57:56.803Z] CLI Version:   13.20.2
+[debug] [2024-09-30T23:57:56.803Z] Platform:      darwin
+[debug] [2024-09-30T23:57:56.803Z] Node Version:  v22.9.0
+[debug] [2024-09-30T23:57:56.804Z] Time:          Tue Oct 01 2024 06:57:56 GMT+0700 (Indochina Time)
+[debug] [2024-09-30T23:57:56.804Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-30T23:57:56.808Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-30T23:57:56.808Z] > authorizing via signed-in user (zarnibwar.jc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mr.zarnibwar/App Projects/home_care_service
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-30T23:58:46.026Z] Checked if tokens are valid: true, expires at: 1727743534803
+[debug] [2024-09-30T23:58:46.026Z] Checked if tokens are valid: true, expires at: 1727743534803
+[debug] [2024-09-30T23:58:46.027Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-30T23:58:46.027Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"homecareservice","name":"homecareservice"}
+[debug] [2024-09-30T23:58:47.373Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-09-30T23:58:47.373Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-09-30T23:58:47.491Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID homecareservice. Please try again with a unique project ID.
+[debug] [2024-09-30T23:58:56.047Z] ----------------------------------------------------------------------
+[debug] [2024-09-30T23:58:56.049Z] Command:       /opt/homebrew/Cellar/node/22.9.0/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-09-30T23:58:56.049Z] CLI Version:   13.20.2
+[debug] [2024-09-30T23:58:56.049Z] Platform:      darwin
+[debug] [2024-09-30T23:58:56.049Z] Node Version:  v22.9.0
+[debug] [2024-09-30T23:58:56.049Z] Time:          Tue Oct 01 2024 06:58:56 GMT+0700 (Indochina Time)
+[debug] [2024-09-30T23:58:56.050Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-30T23:58:56.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-30T23:58:56.054Z] > authorizing via signed-in user (zarnibwar.jc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mr.zarnibwar/App Projects/home_care_service
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-30T23:59:37.823Z] Checked if tokens are valid: true, expires at: 1727743534803
+[debug] [2024-09-30T23:59:37.824Z] Checked if tokens are valid: true, expires at: 1727743534803
+[debug] [2024-09-30T23:59:37.825Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-30T23:59:37.825Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"firebase projects:create","name":"homecareservice"}
+[debug] [2024-09-30T23:59:39.009Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-09-30T23:59:39.009Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [Cannot create domain prefixed projects]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"Cannot create domain prefixed projects"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-09-30T23:59:39.135Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [Cannot create domain prefixed projects]
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
